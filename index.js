@@ -14,8 +14,8 @@ app.listen(port, () => {
       const fetchApi = await fetch("https://alexnormand-dino-ipsum.p.rapidapi.com/?paragraphs=2&words=2&format=json", {
 	    "method": "GET",
 	    "headers": {
-		"x-rapidapi-key": "6ec43a8cc2msh31e969703d33f94p138bd6jsn7b9649d6e078",
-		"x-rapidapi-host": "alexnormand-dino-ipsum.p.rapidapi.com"
+		"x-rapidapi-key": "",
+		"x-rapidapi-host": ""
 	    }
     })
     console.log(fetchApi);
